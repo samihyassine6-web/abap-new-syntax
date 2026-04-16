@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCLASS_SUM</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Class for sum</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SUM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>To Make Sum of two Numbers</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>PVALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUM</CMPNAME>
+     <SCONAME>PINPUT1</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zweistellige Nummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUM</CMPNAME>
+     <SCONAME>PINPUT2</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zweistellige Nummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUM</CMPNAME>
+     <SCONAME>POUTPUT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Numc3, interne Verwendung</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
